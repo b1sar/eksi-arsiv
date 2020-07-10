@@ -1,0 +1,9 @@
+input {
+    display: none;
+    color: black;
+}
+
+label {
+    color: blueviolet;
+    background-color: red;
+}

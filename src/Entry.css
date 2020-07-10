@@ -1,0 +1,55 @@
+.entry {
+    margin-bottom: 50px;
+    margin-top: 0px;
+    text-align: left;
+}
+p {
+    color: black;
+}
+.entry-baslik {
+    text-align: left;
+    color: #388E3C;
+}
+.stylim {
+    display:grid;
+    grid-template-areas: "face tw fc ed ed nick nick nick nick nick nick nick";
+}
+
+.stylim > div {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin-bottom: 0px;
+}
+
+.bosluk {
+    margin-left: 27%;
+}
+
+
+.face {
+    grid-area: face;
+    color: #b0bec5;
+
+}
+
+.tw {
+    grid-area: tw;
+    color: #b0bec5;
+}
+
+.fc {
+    grid-area: fc;;
+    color: #b0bec5;
+}
+
+.ed {
+    grid-area: ed;
+    color: #b0bec5;
+}
+.nick {
+    grid-area: nick;
+    text-align: right;
+    color: #53a245;
+}
